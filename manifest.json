@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "AliceTab",
+    "description": "A simple extension for your new tabs",
+    "version": "1.0",
+    "author": "TChin",
+
+    "browser_action": {
+        "default_icon": "alice.png",
+        "default_title": "Have a nice day"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+}
